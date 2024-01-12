@@ -1,0 +1,42 @@
+.VideoBoxDiv {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+  }
+  
+  .VideoBoxContent {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .VideoBoxTextDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Hind', sans-serif;
+    font-weight: 300;
+  }
+
+  
+  .VideoDiv {
+    width: 100%;
+    height: 100%;
+    transition: border-radius 0.3s;
+  }
+  
+  .videoStyle {
+   width: 100%;
+   height: 100%;
+   transition: border-radius 0.3s;
+  }
+
+  .videoStyle:hover{
+    border-radius: 50px;
+  }
+  
