@@ -77,3 +77,21 @@
     color: rgb(214, 214, 214);
     cursor: pointer;
   }
+
+  @media (max-width: 768px){
+    .contactHeaderText{
+      font-size: 1.5em
+    }
+
+    .contactInfoText{
+      font-size: 1em;
+    }
+
+    .socialHeaderText{
+      font-size: 1.5em;
+    }
+
+    .socialInfoText{
+      font-size: 1em;
+    }
+  }

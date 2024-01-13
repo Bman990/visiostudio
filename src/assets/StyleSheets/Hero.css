@@ -44,3 +44,60 @@
     margin-bottom: 0;
     letter-spacing: 0.2em;
 }
+
+@media screen and (max-width: 768px) {
+
+  
+    /* Additional responsive styles for tablets */
+  }
+  
+  /* Styles for screens with a maximum width of 480px (e.g., mobile phones) */
+
+
+  @media screen and (max-width: 480px) {
+    .homeSection{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .heroSection{
+        width: 80%;
+    }
+    .heroHeaderName{
+        text-align: center;
+        font-size: 5em;
+        margin: 0;
+    }
+
+    .heroHeaderDescWrapper{
+      
+    }
+
+
+    .marqueeText{
+        font-size: 1em;
+        margin-right: 0.5em;
+    }
+}
+
+/* Tablets in portrait mode */
+@media (min-width: 600px) and (max-width: 767px) {
+    .heroHeaderName{
+        text-align: center;
+        font-size: 5em;
+        margin: 0;
+    }
+}
+  
+  /* Tablets in landscape mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .heroHeaderName{
+        text-align: center;
+        font-size: 15em;
+        margin: 0;
+    }
+  }
+  

@@ -69,3 +69,68 @@
     width: 90%;
     border-radius: 10px;
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens (e.g., iPhones) */
+    .fieldEscapeBodyContent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fieldEscapeHeader{
+    }
+    .fieldEscapeHeaderText {
+      font-size: 5em; /* Adjust as needed for smaller screens */
+      width: 100%;
+      text-align: center;
+    }
+    
+    .FEinfoDiv > h2,
+    .FEinfoDiv > p {
+      font-size: 16px; /* Adjust as needed for smaller screens */
+    }
+  }
+
+  /* Tablets in portrait mode */
+@media (min-width: 600px) and (max-width: 767px) {
+    .fieldEscapeBodyContent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fieldEscapeHeader{
+    }
+    .fieldEscapeHeaderText {
+      font-size: 5em; /* Adjust as needed for smaller screens */
+      width: 100%;
+      text-align: center;
+    }
+    
+    .FEinfoDiv > h2,
+    .FEinfoDiv > p {
+      font-size: 16px; /* Adjust as needed for smaller screens */
+    }
+}
+  
+  /* Tablets in landscape mode */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .fieldEscapeBodyContent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fieldEscapeHeader{
+    }
+    .fieldEscapeHeaderText {
+      font-size: 5em; /* Adjust as needed for smaller screens */
+      width: 100%;
+      text-align: center;
+    }
+    
+    .FEinfoDiv > h2,
+    .FEinfoDiv > p {
+      font-size: 16px; /* Adjust as needed for smaller screens */
+    }
+  }
+  
