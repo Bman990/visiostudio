@@ -1,13 +1,15 @@
 import '../StyleSheets/ImageBox1.css'
+import { Link } from 'react-router-dom';
 
 interface ImageBox1Props {
     artName: string;
     artType: string;
     artDate: string;
     imgSrc: string;
+    linkTo: string;
 }
 
-export const ImageBox1: React.FC<ImageBox1Props> = ({artName, artType, artDate, imgSrc}) => {
+export const ImageBox1: React.FC<ImageBox1Props> = ({artName, artType, artDate, imgSrc, linkTo}) => {
     return(
         <div>
             <div className='ImageBox1Div'>
@@ -20,7 +22,7 @@ export const ImageBox1: React.FC<ImageBox1Props> = ({artName, artType, artDate, 
                         </div>
  
                     <div className='ImageBox1ImgDiv'>
-                        <img src={imgSrc} className='img1Style'/>
+                       <Link to={linkTo}><img src={imgSrc} className='img1Style'/></Link> 
                     </div>
 
                     </div>

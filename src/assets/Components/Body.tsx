@@ -21,6 +21,7 @@ export const Body: React.FC = () => {
             artType='3D ART'
             artDate='2024'
             imgSrc={imgTest}
+            linkTo='/visiostudio/fieldescape'
             />
 
             <ImageBox2
@@ -29,6 +30,7 @@ export const Body: React.FC = () => {
             artDate='2024'
             artSrc1={img1}
             artSrc2={img2}
+            linkTo='/visiostudio/aiswirl'
             />
 
             <VideoBox 
@@ -36,6 +38,7 @@ export const Body: React.FC = () => {
             artType='3D ANIMATION'
             artDate='2024'
             artSrc1={video1}
+            linkTo='/visiostudio/theprocess'
             />
 
             <ImageBox2
@@ -44,6 +47,7 @@ export const Body: React.FC = () => {
             artDate='2024'
             artSrc1={img3}
             artSrc2={img4}
+            linkTo='/visiostudio/vibezone'
             />
 
             <VideoBox 
@@ -51,6 +55,7 @@ export const Body: React.FC = () => {
             artType='AI ANIMATION'
             artDate='2024'
             artSrc1={video2}
+            linkTo='/visiostudio/algaesphere'
             />
         </div>
         </section>

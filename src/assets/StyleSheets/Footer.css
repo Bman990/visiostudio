@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+.footerSection {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footerContent {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .rightsText {
+    font-size: 0.7em;
+    color: white;
+  }
+  
+  .footerInfo {
+    color: white;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+  }
+  
+  .contactTextDiv {
+    width: 30%;
+    display: flex;
+  }
+
+  .contactHeaderDiv{
+    margin-right: 1.5em;
+  }
+
+  .contactHeaderText{
+    font-family: 'Hind', sans-serif;
+  }
+
+  .contactInfoDiv{
+    margin-top: 0.4em;
+  }
+
+  .contactInfoText{
+    font-family: 'Hind', sans-serif;
+    font-size: 300;
+  }
+
+  .socialTextDiv {
+    width: 30%;
+    display: flex;
+  }
+
+  .socialHeaderDiv{
+    margin-right: 2.7em;
+  }
+
+  .socialHeaderText{
+    font-family: 'Hind', sans-serif;
+  }
+
+  .socialInfoDiv{
+    margin-top: 0.4em;
+  }
+
+  .socialInfoText{
+    font-family: 'Hind', sans-serif;
+    font-size: 300;
+    transition: color 0.3s;
+  }
+
+  .socialInfoText:hover{
+    color: rgb(214, 214, 214);
+    cursor: pointer;
+  }

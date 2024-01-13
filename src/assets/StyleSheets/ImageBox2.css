@@ -46,6 +46,7 @@
 .img2Style1{
     width: 97%;
     height: 97%;
+    margin-left: 2.5em;
     transition: border-radius 0.3s;
 }
 

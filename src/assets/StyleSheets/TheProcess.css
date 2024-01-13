@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+.theProcessContainer{
+    height: max-content;
+    width: 100vw;
+}
+
+.theProcessContent{
+    height: max-content;
+    margin-bottom: 6em;
+}
+
+.theProcessHeader{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.theProcessHeaderText{
+    color: transparent;
+    font-size: 21.5em;
+    font-family: 'Hind', sans-serif;
+    background: url('/radarImg.jpg');
+    background-position: bottom;
+    background-clip: text;
+    margin: 0;
+}
+
+.theProcessBody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.theProcessBodyContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.theProcessinfoDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.theProcessinfoDiv > h2 {
+    color: white;
+    font-family: 'Hind', sans-serif;
+    margin-left: 1em;
+}
+
+.theProcessinfoDiv > p {
+    color: white;
+    font-family: 'Hind', sans-serif;
+    margin-left: 1em;
+}
+
+.theProcesspictureDiv{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+}
+
+.theProcessimageStyle{
+    width: 100%;
+    border-radius: 10px;
+}

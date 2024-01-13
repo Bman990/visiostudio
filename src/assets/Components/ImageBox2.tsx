@@ -1,5 +1,6 @@
 
 import '../StyleSheets/ImageBox2.css'
+import { Link } from 'react-router-dom';
 
 interface ImageBox2Props{
     artName: string;
@@ -7,9 +8,10 @@ interface ImageBox2Props{
     artDate: string;
     artSrc1: string;
     artSrc2: string;
+    linkTo: string;
 }
 
-export const ImageBox2: React.FC<ImageBox2Props> = ({artName, artType, artDate, artSrc1, artSrc2}) => {
+export const ImageBox2: React.FC<ImageBox2Props> = ({artName, artType, artDate, artSrc1, artSrc2, linkTo}) => {
     return(
         
         <div className='ImageBox2Div'>
@@ -23,11 +25,11 @@ export const ImageBox2: React.FC<ImageBox2Props> = ({artName, artType, artDate, 
 
             <div className='ImageBox2ImgDiv'>
             <div className='imageDiv1'>
-            <img src={artSrc1} className='img2Style1'/>                
+            <Link to={linkTo}><img src={artSrc1} className='img2Style1'/></Link>              
             </div>
 
             <div className='imageDiv2'>
-            <img src={artSrc2} className='img2Style2'/>                
+            <Link to={linkTo}><img src={artSrc2} className='img2Style2'/></Link>           
             </div>
 
             </div>

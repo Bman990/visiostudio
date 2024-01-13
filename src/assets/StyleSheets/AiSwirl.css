@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+.aiSwirlContainer{
+    height: max-content;
+    width: 100vw;
+}
+
+.aiSwirlContent{
+    height: max-content;
+    margin-bottom: 6em;
+}
+
+.aiSwirlHeader{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.aiSwirlHeaderText{
+    color: transparent;
+    font-size: 21.5em;
+    font-family: 'Hind', sans-serif;
+    background: url('/artImg1.jpg');
+    background-position: bottom;
+    background-clip: text;
+    margin: 0;
+}
+
+.aiSwirlBody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aiSwirlBodyContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aiSwirlinfoDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.aiSwirlinfoDiv > h2 {
+    color: white;
+    font-family: 'Hind', sans-serif;
+    margin-left: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.aiSwirlinfoDiv > p {
+    color: white;
+    font-family: 'Hind', sans-serif;
+    margin-left: 1em;
+    text-align: center;
+}
+
+.aiSwirlpictureDiv{
+    width: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.aiSwirlpictureContent{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aiSwirlimageStyle{
+    width: 46%;
+    border-radius: 10px;
+}
