@@ -1,14 +1,29 @@
 import '../StyleSheets/Footer.css'
+import { useLocation, useNavigate } from 'react-router-dom';
 
 
 export const Footer: React.FC = () => {
+
+    const navigate = useNavigate();
+    const location = useLocation();
+  
+    // Check if the current location is the default home page
+    const isHomePage = location.pathname === '/';
+  
+    // Handle clicking the "Back Home" link
+    const handleBackHomeClick = () => {
+      navigate('/');
+    };
+
     return(
         <section className="footerSection">
             <div className="footerContent">
 
-                <div className="rightsDiv">
-                <p className="rightsText">2024 Visio Studio All Rights Reserved</p>
-                </div>
+            {!isHomePage && (
+          <div className="backHomeDiv" onClick={handleBackHomeClick}>
+            <span className="backHomeLink">Back Home</span>
+          </div>
+        )}
 
                 <div className="footerInfo">
 
@@ -35,7 +50,12 @@ export const Footer: React.FC = () => {
                 </div>
 
             </div>
+
+            <div className="rightsDiv">
+                <p className="rightsText">2024 Visio Studio All Rights Reserved</p>
             </div>
+            </div>
+
         </section>
     )
 }
